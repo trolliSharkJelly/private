@@ -35,10 +35,10 @@ jobs:
         run: echo Hello, world!
       
       - name: Install Dependencies
-        run: npm
+        run: yarn
       
       - name: Build
-        run: num run build
+        run: yarn build
       
       - name: Deploy
         env:
